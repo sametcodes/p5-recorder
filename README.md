@@ -26,3 +26,6 @@ Don't forget to include the dependencies.
 
 <script src="js/sketch.js"></script>
 ``` 
+
+### Example
+https://selmansamet.github.io/p5-recorder/examples/
