@@ -1,4 +1,4 @@
-## p5-recoder
+## p5-recorder
 p5-recorder is a deadly simple class that be able to create gif from `canvas` for [p5.js](https://p5js.org/). Depends on [CCapture.all.js](https://github.com/spite/ccapture.js/blob/master/build/CCapture.all.min.js) and [gif.worker.js](https://github.com/jnordberg/gif.js/blob/master/dist/gif.worker.js)
 
 ### Usage
