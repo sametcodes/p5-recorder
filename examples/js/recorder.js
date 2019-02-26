@@ -1,10 +1,14 @@
 class P5Recorder {
   constructor({
-    gifLength = 50
+      gifLength = 50,
+      framerate = 30
   }) {
     this.gifLength = gifLength;
+    this.framerate = framerate;
+
     this.capturer = new CCapture({
       format: 'gif',
+      framerate: this.framerate,
       workersPath: './js/',
     });
     this.capturer.start();
